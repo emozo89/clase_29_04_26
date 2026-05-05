@@ -13,18 +13,18 @@ import time
 #   x = x + 1
 #print("Fin")
 
-h = 0
-while h <= 23:
-   m = 0
-   while m <= 59:
-      z = 0
-      while s <= 59:
-         print(h, ":", m, ":", s)
-         time.sleep(0.2)
-         s = s + 1
-      m = m + 1
-   h = h + 1
-print("Fin")
+#h = 0
+#while h <= 23:
+#   m = 0
+#   while m <= 59:
+#      z = 0
+#      while s <= 59:
+#         print(h, ":", m, ":", s)
+#         time.sleep(0.2)
+#         s = s + 1
+#      m = m + 1
+#   h = h + 1
+#print("Fin")
 
 for h in range (24):
    for m in range (60):
