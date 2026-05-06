@@ -26,8 +26,18 @@ import time
 #   h = h + 1
 #print("Fin")
 
-for h in range (24):
-   for m in range (60):
-        for s in range (60):
+#reloj con for
+#for h in range(0, 24, 1):
+#   for m in range(0, 60, 1):
+#      for s in range(0, 60, 1):
+#         print(h, ":", m, ":", s)
+#         #time.sleep(0.2)
+
+#relos con while (infinito)
+while True:
+   for h in range(0, 24, 1):
+      for m in range(0, 60, 1):
+         for s in range(0, 60, 1):
             print(h, ":", m, ":", s)
-            time.sleep(0.2)
+            time.sleep(0.02)
+
