@@ -2,14 +2,18 @@
 #retorne cuantos numeros pares ingreso el usuario.
 #nota: solo se deben considerar los numeros positivos.
 
-print("Bienvenido al programa de conteo numerico")
-
-num = int(input("ingrese un numero: "))
+print("Bienvenido al programa de conteo numérico")
 contador = 0
+contador2 = 0
+ciclos = 5
 
-for num in range(0, 6, 1):
-    if num % 2 == 0 and num > 0:
+while contador < ciclos:
+    num = int(input("Ingrese un numero: "))
+    
+    if num > 0:
         contador = contador + 1
-        print("El numero de numeros pares ingresados es: ", contador)
+        if num % 2 == 0:
+            contador2 = contador2 + 1
     else:
-        print("El numero ingresado no es par o es negativo")
+        print("Error!")
+print(f"De los 5 ingresos, {contador2} fueron numeros pares")
