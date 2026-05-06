@@ -17,7 +17,7 @@ import time
 #while h <= 23:
 #   m = 0
 #   while m <= 59:
-#      z = 0
+#      s = 0
 #      while s <= 59:
 #         print(h, ":", m, ":", s)
 #         time.sleep(0.2)
