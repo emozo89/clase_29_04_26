@@ -3,17 +3,17 @@
 #nota: solo se deben considerar los numeros positivos.
 
 print("Bienvenido al programa de conteo numérico")
-contador = 0
-contador2 = 0
+positivos = 0
+pares = 0
 ciclos = 5
 
-while contador < ciclos:
+while positivos < ciclos:
     num = int(input("Ingrese un numero: "))
     
     if num > 0:
-        contador = contador + 1
+        positivos = positivos + 1
         if num % 2 == 0:
-            contador2 = contador2 + 1
+            pares = pares + 1
     else:
         print("Error!")
-print(f"De los 5 ingresos, {contador2} fueron numeros pares")
+print(f"De los 5 ingresos, {pares} fueron numeros pares")
