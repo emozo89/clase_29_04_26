@@ -34,25 +34,25 @@
 #print(numeros)
 
 #Métodos de una lista
-edades = []
-edades.append(48)
-edades.append(27)
-edades.append(26)
-edades.append(28)
-edades.append(29)
-edades.append(30)
-print(edades)
+#edades = []
+#edades.append(48)
+#edades.append(27)
+#edades.append(26)
+#edades.append(28)
+#edades.append(29)
+#edades.append(30)
+#print(edades)
 #Insertar en el índice 2 el elemento 36
-edades.insert(2, 36)
-print(edades)
+#edades.insert(2, 36)
+#print(edades)
 #Elimina elemento 28 de la lista
 #edades.remove(28)
-del edades[4]
-print(edades)
-elemento_cero = edades.pop(0)
-print("Se eliminó el elemento del índice cero, su valor era -> ", elemento_cero)
-print(edades)
+#del edades[4]
+#print(edades)
+#elemento_cero = edades.pop(0)
+#print("Se eliminó el elemento del índice cero, su valor era -> ", elemento_cero)
+#print(edades)
 
 #Modificar un elemento
-edades[2] = 1
-print(edades)
+#edades[2] = 1
+#print(edades)
