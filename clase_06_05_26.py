@@ -1,4 +1,4 @@
-#ESTRUCURAS DE DATOS - investigar tuplas, diccionarios, conjuntos
+#ESTRUCTURAS DE DATOS - investigar tuplas, diccionarios, conjuntos
 #INVESTIGAR - vectores, arreglos, matrices
 
 
