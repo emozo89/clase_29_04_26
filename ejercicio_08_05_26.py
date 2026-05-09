@@ -17,4 +17,4 @@
 
 #1.-Desarrolle una funcion que retorne el factorial de un numero
 
-
+#2.- Desarrolle una funcion que reciba dos listas y retorne una lista con la suma cruzada.
