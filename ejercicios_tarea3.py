@@ -6,8 +6,27 @@
 
 lista = []
 i = 0
+es_primo = True
+no_primo = False
 
 while i < 10:
     num = int(input("Ingrese un numero: "))
     lista.append(num)
     i = i + 1
+
+for i in range(len(lista)):
+    if lista [i] == 1:
+        print(lista[i], "no es primo")
+    else:
+        es_primo = True
+
+    for j in range(2, lista[i]):
+
+        if lista[i] % j == 0:
+            es_primo = False
+            break
+        
+    if es_primo:
+        print(lista[i], "es primo")
+    else:
+        print(lista[i], "no es primo")
