@@ -17,4 +17,19 @@
 
 #1.-Desarrolle una funcion que retorne el factorial de un numero
 
+def factorial(num):
+    
+    contador = 1
+    resultado = 1
+    
+    while contador <= num:
+        resultado = resultado * contador
+        contador = contador + 1
+        
+    return resultado
+
+numero = int(input("ingrese un numero: "))
+print("el factorial es:", factorial(numero))
+
+
 #2.- Desarrolle una funcion que reciba dos listas y retorne una lista con la suma cruzada.
