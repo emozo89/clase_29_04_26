@@ -39,7 +39,7 @@ def suma_cruz(lista1, lista2):
     resultado = []
     
     for i in range (len(lista1)):
-        suma = lista1[i] + lista2[i]
+        suma = lista1[i] + lista2[len(lista2)-1-i]
         resultado.append(suma)
         
     return resultado

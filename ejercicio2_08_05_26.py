@@ -8,7 +8,7 @@ def suma_cruzada(lista1, lista2):
 
     while i < len(lista1):
 
-        suma = lista1[i] + lista2[i]
+        suma = lista1[i] + lista2[len(lista2)-1-i]
         resultado.append(suma)
         i = i + 1
     return resultado
