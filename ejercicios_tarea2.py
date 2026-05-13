@@ -13,7 +13,7 @@ while i < 10:
 
 for i in range(len(numeros)):
     
-    for j in range(len(numeros) -1):
+    for j in range(len(numeros) -1-i):
         
         if numeros[j] > numeros[j + 1]:
             
